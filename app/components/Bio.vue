@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col items-center px-5">
+    <div class="flex flex-col items-start max-w-md text-left">
         <h1 class="text-xl sm:text-3xl font-bold mb-4">{{ bio.title }}</h1>
         <h2 class="text-lg sm:text-xl leading-8 font-semibold mb-3">{{ bio.description }}</h2>
-        <p class="text-base sm:text-lg font-medium text-slate-500 my-2">{{ bio.subtext }}</p>
+        <p class="text-base sm:text-lg font-regular text-white text-opacity-50 mb-8">{{ bio.subtext }}</p>
     </div>
 </template>
 

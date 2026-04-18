@@ -1,7 +1,7 @@
 export default defineEventHandler((event) => {
     return {
-        title: 'Hello world',
-        description: 'Your personal bio here',
-        subtext: 'Additional info'
+        title: 'Oh, hi! 🦆',
+        description: 'Creative Developer based in Münster',
+        subtext: 'Passionate about photography, collecting vinyls, and the art of writing!'
     }
 })

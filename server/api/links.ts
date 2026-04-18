@@ -1,35 +1,71 @@
 export default defineEventHandler((event) => {
     return [
         {
-            group: 'Group 1',
+            group: 'My own sites',
             links:
             [
                 {
-                    title: 'Example 1',
-                    url: 'https://google.com',
+                    title: 'Portfolio',
+                    url: 'https://lucasdietrich.de',
                     target: '_blank'
                 },
                 {
-                    title: 'Example 1',
-                    url: 'https://google.com',
+                    title: 'Photography',
+                    url: 'https://photography.lucasdietrich.de',
+                    target: '_blank'
+                },
+                {
+                    title: 'Prints',
+                    url: 'https://prints.lucasdietrich.de',
+                    target: '_blank'
+                },
+                {
+                    title: 'masterball HQ',
+                    url: 'https://masterballhq.com',
                     target: '_blank'
                 }
             ]
         },
         {
-            group: 'Group 2',
+            group: 'Social',
             links:
             [
                 {
-                    title: 'Example 1',
-                    url: 'https://google.com',
+                    title: 'Instagram',
+                    url: 'https://www.instagram.com/lucasdietrich_/',
                     target: '_blank'
                 },
                 {
-                    title: 'Example 1',
-                    url: 'https://google.com',
+                    title: 'YouTube',
+                    url: 'https://youtube.com/@Lucsy3012',
+                    target: '_blank'
+                },
+                {
+                    title: 'Steam',
+                    url: 'https://steamcommunity.com/id/lucsy3012/',
+                    target: '_blank'
+                },
+                {
+                    title: 'Github',
+                    url: 'https://github.com/Lucsy3012',
+                    target: '_blank'
+                },
+                {
+                    title: 'Dribbble',
+                    url: 'https://dribbble.com/Lucsy3012',
                     target: '_blank'
                 }
+            ]
+        },
+        {
+            group: 'Products',
+            links:
+            [
+                {
+                    title: 'Get my book „Patron of the Anxious”',
+                    url: 'https://www.amazon.com/dp/B0D9KTKD4T',
+                    target: '_blank'
+                },
             ]
         }
     ]
