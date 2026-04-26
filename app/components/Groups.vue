@@ -6,6 +6,11 @@
                 <GroupLink :link="link" :key="link.title"/>
             </div>
         </div>
+        <div class="uppercase tracking-widest text-white text-opacity-50 font-medium text-xs text-left mt-8 mb-3">
+            <span>
+              Original sourced: <a href="https://github.com/skaiwlkr/link-awesome" class="text-opacity-100 !underline" target="_blank" rel="noreferrer nofollow">skaiwlkr</a>
+            </span>
+        </div>
     </div>
 </template>
 
